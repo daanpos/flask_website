@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<haad>
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="/static/stylesheet.css">
+</head>
+    <body>
+        <img class="img" src="/static/Hva_logo.png" alt="hva logo">
+        
+        <h1>{% block header %}{% endblock %}</h1>
+            {% block main %}
+            {% endblock %}
+
+        <nav id="nav">
+            <a id="login" href="/login">Login</a>
+            &nbsp;
+            <a id="home" href="/">Home</a>
+            &nbsp;
+            <a id="multimedia" href="/multimedia">Multimedia</a>
+        </nav>
+        
+        <div id="film">
+            {% block film %}
+            {% endblock %}
+        </div>
+
+        <div id="content">
+            {% block content %}
+            {% endblock %}
+        </div>
+
+        <div id="form">
+            {% block button %}
+            {% endblock %}
+        </div>
+
+        <br>
+
+        <div id="form">
+            {% block loginform %}
+            {% endblock %}
+        </div>
+
+    </body>
+</html>

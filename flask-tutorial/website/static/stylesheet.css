@@ -1,0 +1,69 @@
+/*This changes the color of the background to dark grey*/
+body {  
+    background-color: rgb(40, 40, 40);
+  }
+
+/*This makes sure that the image is in the center of the screen*/
+  .img {
+    margin: auto;
+    display: block;
+  }
+  
+/* The characters of this text are all white and they are centered*/
+  h1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  /* The characters are white and in font: Times New Roman and they are centered*/
+  p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+  }
+  
+/* The link text have to be white and the padding for the border has to be 5px wide*/
+  a {
+    font-family: verdana;
+    font-size: 17px;  
+    color: rgb(255, 95, 0);
+    text-align: center;
+    padding: 5px;
+  }
+  
+/*Make sure that the nav bar is in the center of the screen*/
+  #nav {
+    text-align: center; 
+  }
+
+  /* The form element has to be in the center of the screen*/
+  #form {
+    text-align: center;
+  }
+
+  /* The button to Instagram has to be in the center of the screen*/
+  #insta {
+    font-size: 20px;
+  }
+  
+  /* The buttonn to Facebook has to be centered*/
+  #facebook{
+    font-size: 20px;
+  }
+
+  /* The text for the input field has to be white*/
+  label {
+    color: white;
+  }
+
+  /* The video is centered*/
+  #film {
+    margin: auto;
+    display: block;
+  }
+
+
+  
+  

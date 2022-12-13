@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}multimedia{% endblock %}
+
+{% block header %}this is the multimedia page{% endblock %}
+
+{% block film %}
+<br><br>
+<!--The video is shown here-->
+<iframe id="film"
+    width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe>
+{% endblock %}
+
+{% block button %}
+<!--These are two button Instagram and Facebook-->
+<form action="https://www.instagram.com" target="_blank">
+    <br><br><br>
+    <input id="insta" type="submit" value="Instagram">
+</form>
+<form action="https://www.facebook.com" target="_blank">
+    <br>
+    <input id="facebook" type="submit" value="Facebook">
+</form>
+{% endblock %}
